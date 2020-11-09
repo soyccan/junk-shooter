@@ -30,7 +30,7 @@ public class WirelessMotionController : MonoBehaviour
     {
         isTrigger = socketClient.isTrigger;
         quaternion = new Quaternion(socketClient.x, socketClient.y, socketClient.z, socketClient.w);
-        Debug.Log("Wireless isTrigger: " + isTrigger);
+        //Debug.Log("Wireless isTrigger: " + isTrigger);
         Debug.Log("Wireless Quaternion: " + quaternion);
     }
 

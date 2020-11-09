@@ -251,7 +251,7 @@ void loop() {
             Serial.print(q.y);
             Serial.print("\t");
             Serial.println(q.z);
-            sprintf(buf, "%d %lf %lf %lf %lf\n", b, q.w, q.x, q.y, q.z);
+            sprintf(buf, "%d %lld %lld %lld %lld\n", b, q.w, q.x, q.y, q.z);
             client.print(buf);
         #endif
         
